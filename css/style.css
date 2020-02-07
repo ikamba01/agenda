@@ -1,0 +1,48 @@
+body {
+    background-image: url(../assets/img/maison.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 600px;
+    border: 2px solid khaki;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    line-height: 70px;
+    border-collapse: collapse;
+    background-color: black;
+    opacity: 70%;
+}
+
+table thead tr th {
+    border: solid khaki 1px;
+    color: white;
+}
+
+tbody tr th {
+    border: solid khaki 1px;
+    color: brown;
+}
+
+td {
+    border: solid khaki 1px;
+    color: orangered;
+    text-align: center;
+}
+
+table tfoot tr th {
+    border: solid khaki 1px;
+    text-align: center;
+    color: white;
+}
+
+table caption {
+    text-align: center;
+    text-decoration: underline;
+    color: olivedrab;
+    font-size: large;
+    font-family: cursive, sans-serif;
+}
